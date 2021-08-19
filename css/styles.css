@@ -193,17 +193,23 @@ h2.hero-subtext {
     transition: all 0.3s;
 }
 
-.btn-primary {
+.btn-primary-custom {
     background: var(--transparent_white_less);
 }
 
-.btn-primary:hover{
+.btn-primary-custom:hover{
     background: white;
     color: var(--dark_green);
     box-shadow: 1px 13px 5px -6px rgba(0,0,0,0.23);
     transform: translateY(-5px);
 }
-
+.btn-primary-custom a{
+    text-decoration: none;
+    color: white;
+}
+.btn-primary-custom:hover a{
+    color: var(--dark_green);
+}
 .btn-secondary{
     background: none;
     border: 1px solid var(--transparent_white);
