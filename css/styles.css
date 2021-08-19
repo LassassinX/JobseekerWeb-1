@@ -15,7 +15,7 @@
 
 /*NAV BAR*/
 body {
-    background: url("header-bg.png") no-repeat;
+    background: url("/images/header-bg.png") no-repeat;
     background-size: 1920px auto;
 }
 
